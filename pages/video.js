@@ -1,8 +1,9 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default () => (
-  <div style={{ width: 600, margin: '20px auto' }} className="content">
+  <div style={{ width: 600, margin: "20px auto" }} className="content">
     <iframe
+      title="Roll"
       width="560"
       height="315"
       src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -10,7 +11,7 @@ export default () => (
       allow="autoplay; encrypted-media"
       allowfullscreen
     />
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ textAlign: "center" }}>
       <Link href="/">
         <a className="button is-link">
           <strong>Want some images</strong>
